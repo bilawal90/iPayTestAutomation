@@ -1,0 +1,33 @@
+    {
+
+        "InvalidUsername": "teacherauto22112",
+        "InvalidPassword": "P$ssw0rd",
+        "TeacherUsername": "teacherauto",
+        "TeacherPassword": "P$ssw0rd",
+        "TeacherliteUsername": "teacherliteauto",
+        "TeacherlitePassword": "P$ssw0rd",
+        "KitchenUsername": "kitchenauto1",
+        "KitchenPassword": "P$ssw0rd",
+        "KitchenLiteUsername": "kitchenliteauto",
+        "KitchenLitePassword": "P$ssw0rd",
+        "ParentUsername": "paauto1",
+        "ParentPassword": "P$ssw0rd",
+        "SAPreOrderUsername": "school1126preorder",
+        "SAPreOrderPassword": "P$ssw0rd",
+        "SchoolFinanceUsername": "sfauto2",
+        "SchoolFinancePassword": "P$ssw0rd",
+        "SchoolAdminUsername": "saauto1",
+        "SchoolAdminPassword": "P$ssw0rd",
+        "ClientUsername": "ClientAuto1",
+        "ClientPassword": "P$ssw0rd",
+        "URL": "https://test.ipayimpact.co.uk/Test/Account/LogOn",
+        "ClientFinanceUsername": "cfauto1",
+        "ClientFinancePassword": "P$ssw0rd",
+        "ClientCateringUsername": "ccauto1",
+        "ClientCateringPassword": "P$ssw0rd",
+        "ClientEducationUsername": "ceauto1",
+        "ClientEducationPassword": "P$ssw0rd",
+        "CateringCompanyUsername": "catcomauto1",
+        "CateringCompanyPassword": "P$ssw0rd"
+        
+    }

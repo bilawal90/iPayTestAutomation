@@ -1,0 +1,41 @@
+{
+  "name": "cypressautomation",
+  "version": "1.0.0",
+  "main": "cypress.config.js",
+  "scripts": {
+     "ClientAdminTest": "npx cypress run --spec cypress\\e2e\\ClientTestSuite.cy.js --headed --browser chrome --",
+    "ClientFinanceTest": "npx cypress run --spec cypress\\e2e\\ClientFinanceTestSuite.cy.js --headed --browser chrome --",
+    "ClientEducationTest": "npx cypress run --spec cypress\\e2e\\ClientEducationTestSuite.cy.js --headed --browser chrome --",
+    "ClientCateringTest": "npx cypress run --spec cypress\\e2e\\ClientCateringTestSuite.cy.js --headed --browser chrome --",
+    "CateringCompanyTest": "npx cypress run --spec cypress\\e2e\\CateringCompanyTestSuite.cy.js --headed --browser chrome --",
+    "KitchenTest": "npx cypress run --spec cypress\\e2e\\KitchenTestSuite.cy.js --headed --browser chrome --",
+    "KitchenLiteTest": "npx cypress run --spec cypress\\e2e\\TeacherLiteTestSuite.cy.js --headed --browser chrome --",
+    "TeacherTest": "npx cypress run --spec cypress\\e2e\\TeacherTestSuite.cy.js --headed --browser chrome --",
+    "TeacherLiteTest": "npx cypress run --spec cypress\\e2e\\TeacherLiteTestSuite.cy.js --headed --browser chrome --",
+    "ParentTest": "npx cypress run --spec cypress\\e2e\\ParentTestSuite.cy.js --headed --browser chrome --",
+    "SchoolAdminTest": "npx cypress run --spec cypress\\e2e\\SchoolAdminTestSuite.cy.js --headed --browser chrome --",
+    "SchoolFinanceTest": "npx cypress run --spec cypress\\e2e\\SchoolFinanceTestSuite.cy.js --headed --browser chrome --",
+    "SchoolPreOrderTest": "npx cypress run --spec cypress\\e2e\\SchoolPreOrderTestSuite.cy.js --headed --browser chrome --",
+    "WebTestAutomation": "npx cypress run --spec cypress\\e2e\\*.cy.js --browser chrome",
+    "WebTestAutomationfirefox": "npx cypress run --spec cypress\\e2e\\*.cy.js --browser firefox",
+    "WebTestAutomationEdge": "npx cypress run --spec cypress\\e2e\\*.cy.js --browser edge"
+  },
+  "author": "bilawal",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^13.15.1",
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "cypress-xpath": "^2.0.1",
+    "mocha": "^10.3.0",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.3.0",
+    "mochawesome-report-generator": "^6.2.0",
+
+    "reporter": "cypress-mochawesome-reporter",
+    "video": true,
+    "screenshotsFolder": "images"
+  }
+
+  
+}
